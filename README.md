@@ -24,6 +24,8 @@ The model used in this project is a **Multinomial Naive Bayes classifier**, trai
 - **Confusion Matrix**:
        [889   0]
        [ 30 115]
+
+  
 **Interpretation:**
 - 889 legitimate messages correctly classified
 - 115 spam messages correctly identified
