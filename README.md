@@ -14,6 +14,26 @@ This project is a simple yet effective web application that helps identify wheth
 
 ---
 
+## 📊 Model Performance
+
+The model used in this project is a **Multinomial Naive Bayes classifier**, trained on a labeled dataset of spam and ham (non-spam) messages.
+
+**Evaluation Results:**
+- **Accuracy**: 97.09%
+- **Precision**: 1.00
+- **Confusion Matrix**:
+       [889   0]
+       [ 30 115]
+**Interpretation:**
+- 889 legitimate messages correctly classified
+- 115 spam messages correctly identified
+- 30 spam messages were missed (false negatives)
+- 0 legitimate messages were incorrectly flagged as spam (false positives)
+
+These results reflect a high-precision model, with zero false alarms and strong overall accuracy, making it particularly suitable for applications where avoiding false positives is critical.
+
+---
+
 ## 🧰 Built With
 
 - **Python 3.9+** for core logic
@@ -27,4 +47,3 @@ This project is a simple yet effective web application that helps identify wheth
 ## 🎯 Why This Project?
 
 This project is a hands-on demonstration of how machine learning and NLP can come together to solve real-world problems like spam detection. It's also a great way to explore deploying ML models in a clean, responsive app.
-
